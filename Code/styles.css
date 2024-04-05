@@ -1,0 +1,35 @@
+.hamburger.open .line.top{
+    transform: translate(-2px,1px)  rotateZ(-45deg);
+  width:15px;
+}
+.hamburger.open .line.bottom{
+  transform: translate(-2px,-5px) rotateZ(45deg);
+  width: 15px;
+}
+.hamburger.open .line.middle{
+  top:29px;
+}
+.hamburger.open{
+    transform:rotateZ(180deg);
+}
+
+@media (min-width:992px){  
+.reveal{
+    opacity:0;
+  transform: translateY(10px);
+  transition-delay: .2s;
+}
+.reveal.shown{
+    opacity:1;
+  transform: translateY(0);
+}
+.footer-product-img._2.reveal{
+    transition-delay:.3s;
+}
+}
+
+body {
+    font-family: "Helvetica", sans-serif;
+    background-image: url("Images/ghtyj.jpg");
+}
+

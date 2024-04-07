@@ -1,0 +1,9 @@
+This will be where I put my CSS notes. Not sure how I will structure it,
+but I want to make sure I have a go-to for this sort of thing. My main
+issue (thus far), is tying the style sheet to HTML (not the act of it).
+I know how to do it:
+
+<link rel="stylesheet" href="insert link/name to stylesheet here">
+
+But actually styling the page and using it to make a good looking page
+is lost on me.

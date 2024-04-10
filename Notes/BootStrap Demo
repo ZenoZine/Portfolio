@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang = en>
+    <head>
+        <title>My Portfolio</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+        <link rel = "shortcut icon" type = "image/png" href = "Images/icon.png"/>
+    </head>
+    <body>
+
+        <div class="container">
+            <h1>My First Bootstrap Page</h1>
+            <p>This is inside a .container class.</p>
+            <p>The .container class provides a responsive fixed width container.</p>
+        </div>
+
+        <!--This container takes up the entire viewport.-->
+        <div class="container-fluid">
+            <h1>This is a test of containers.</h1>
+            <p>This is some text.</p>
+        </div>
+
+        <div class="container pt-5">
+            <h1>This is more testing of containers.</h1>
+            <p>This is more text.</p>
+        </div>
+
+        <!--This is a container with a black background and white text.-->
+        <div class="container p-5 my-5 bg-dark text-white">
+            <h1>More Testing...</h1>
+            <p>Even more text..</p>
+        </div>
+
+        <!--This is a container with a blue background and white text-->
+        <div class="container p-5 my-5 bg-primary text-white">
+            <h1>You know what it is.</h1>
+            <p>Need I say more.</p>
+        </div>
+
+        <!--This is testing the grid structure.-->
+        <div class="row">
+            <!--This provides two equal responsive columns.-->
+            <div class="col-sm-3 p-3 bg-primary text-white">Project 1</div>
+            <div class="col-md-3 p-3 bg-dark text-white">Project 2</div>
+            <!--This line provides space between this column example and the next example.-->
+            <p style="line-height: 30px"></p>
+        </div>
+
+        <div class="row">
+            <!--This provides two unequal responsive columns.-->
+            <div class="col-sm-4 p-3 bg-primary text-white">Project 1</div>
+            <div class="col-md-8 p-3 bg-dark text-white">Project 2</div>
+            <p class="line-height: 30px"></p>
+        </div>
+
+        <!--This code segment would let Bootstrap handle the layout.-->
+        <div class="row">
+            <div class="col p-3 bg-primary text-white">Project 1</div>
+            <div class="col p-3 bg-dark text-white">Project 2</div>
+            <div class="col p-3 bg-primary text-white">Project 3</div>
+            <p class="line-height: 30px"></p>
+        </div>
+
+        <p class="display-1">Display 1</p>
+        <p class="display-2">Display 2</p>
+        <p class="display-3">Display 3</p>
+        <p class="display-4">Display 4</p>
+        <p class="display-5">Display 5</p>
+        <p class="display-6">Display 6</p>
+    </body>
+</html>

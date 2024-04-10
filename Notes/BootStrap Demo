@@ -69,5 +69,21 @@
         <p class="display-4">Display 4</p>
         <p class="display-5">Display 5</p>
         <p class="display-6">Display 6</p>
+        <p class="line-height: 30px"></p>
+
+        <!--This is showing the different Heading w/ Secondary Text types.-->
+        <h1>Smaller, Secondary Text</h1>
+        <p>This is small text</p>
+        <h1>This is h1 Heading<small> with secondary Text</small></h1>
+        <h2>This is h2 Heading<small> with secondary Text</small></h2>
+        <h3>This is h3 Heading<small> with secondary Text</small></h3>
+        <h4>This is h4 Heading<small> with secondary Text</small></h4>
+        <h5>This is h5 Heading<small> with secondary Text</small></h5>
+        <h6>This is h6 Heading<small> with secondary Text</small></h6>
+        <p class="line-height: 30px"></p>
+
+        <!--This shows an example of the mark style.-->
+        <h1>Highlighting Text</h1>
+        <p>Use the mark element to <mark>highlight</mark> text.</p>
     </body>
 </html>
